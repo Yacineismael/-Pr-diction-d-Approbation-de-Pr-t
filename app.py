@@ -9,6 +9,13 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # ============================================================================
+# SECRETS — Lecture via st.secrets (valeurs définies dans .streamlit/secrets.toml)
+# Exemple d'utilisation (décommenter si les clés sont configurées) :
+# api_key     = st.secrets["api_keys"]["openai"]
+# db_password = st.secrets["database"]["password"]
+# ============================================================================
+
+# ============================================================================
 # TODO 1 : Configuration de la page
 # ============================================================================
 st.set_page_config(
